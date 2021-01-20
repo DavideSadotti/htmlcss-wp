@@ -33,10 +33,46 @@ ul a{
 
 /* PRIMO BOX BODY */
 .banner-hero{
-  background-color: #e3d67a;
   width: 80%;
-  height: 600px;
+  height: 500px;
   margin: 20px auto;
+  position: relative;
+}
+
+.banner-hero img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.overlay::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.2);
+  z-index: 2;
+  border-radius: 10px;
+}
+
+.hero-text{
+  color: white;
+  width: 50%;
+  position: absolute;
+  top: 63%;
+  left: 5%;
+  z-index: 4;
+}
+
+.hero-text h2{
+  font-size: 28px;
+}
+
+.hero-text p{
+  font-size: 15px;
 }
 
 /* SECONDO BOX BODY */

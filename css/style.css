@@ -84,7 +84,7 @@ ul a{
 /* BANNER-HERO */
 .container{
   width: 80%;
-  height: 800px;
+  height: 780px;
   margin: 20px auto;
 }
 
@@ -125,8 +125,14 @@ ul a{
 
 /* FOOTER */
 footer{
-  background-color: #8801fe;
   width: 80%;
-  height: 200px;
+  height: 50px;
   margin: 20px auto;
+  text-align: center;
+  color: black;
+}
+
+footer span{
+  color: red;
+  font-size: 20px
 }
